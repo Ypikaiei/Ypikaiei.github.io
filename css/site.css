@@ -1,0 +1,274 @@
+* {
+    box-sizing: border-box;
+    font-family: "Century Gothic";
+    }
+
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+input[type=radio] :first-child   {
+margin-left: 0;
+}
+
+
+.checkbox {
+margin-left: 0;
+}
+
+
+
+.diehard  {
+ 
+     color: red; 
+     font-size: 150%; 
+     font-family: serif; 
+     top: 5px; }
+
+.body  {
+background-color:#DCDCDC; 
+
+}
+
+.div {
+
+    padding: 10px 15px;
+    text-align:center;
+   font-size: 18px;
+}
+
+.div2 {
+    display: inline-block;
+    vertical-align: top;
+    background-color:#FFFAFA; 
+    border: 1.5px solid #C0C0C0;
+    color: #BC8F8F;
+    padding: 12px 15px;
+    text-align:left ;
+   font-size: 18px;
+}
+.black
+{
+
+color: black;
+ 
+}
+
+a
+{
+    text-decoration: none; 
+    border-bottom: none;
+    padding-bottom: 1px;
+    color:#C0C0C0;
+}
+
+
+
+.h1 {
+
+      text-align: center;
+}
+.h2 {
+    display: inline-block;
+    background-color:#FFFAFA; 
+    border: 1.5px solid #C0C0C0;
+    color: #BC8F8F;
+    padding: 15px 295px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.inline-block {
+
+    display: inline-block;
+}
+
+
+.button-default {
+        background-color: #BC8F8F;
+        display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+	box-shadow: 0 1px 2px rgba(0,0,0,.2);
+       }
+
+.button-default1 {
+        display: inline-block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	font: 14px/100% Arial, Helvetica, sans-serif;
+	padding: .5em 2em .55em;
+	text-shadow: 0 1px 1px rgba(0,0,0,.3);
+	-webkit-border-radius: .5em;
+	border-radius: .5em;
+	background: linear-gradient( #BC8F8F 0%,#fcecfc 90%,#BC8F8F 100%,#fcecfc 100%); 
+
+}
+
+
+.button-default:hover {
+    background-color: #DC143C;
+    cursor: pointer;
+}
+
+
+.button-default:hover {
+	text-decoration: none;
+}
+.button-default:active {
+	position: relative;
+	top: 1px;
+}
+
+
+
+
+
+.list {
+    padding:0;
+    cursor: no-drop;
+}
+
+ 
+.list li{ 
+  padding:6px; 
+   list-style-type: none; 
+} 
+.list li:before { 
+  padding-right: 9px; 
+  font-weight: bold; 
+  color: #2369a5; 
+  content: "\2714"; 
+  transition-duration: 0.4s; 
+} 
+.list li:hover:before { 
+  color: #32CD32; 
+  content: "\2714"; 
+}
+
+.search {
+    background-color:#BC8F8F; 
+    border: 1px solid #C0C0C0;
+    color: #2369a5;
+    padding: 10px 15px;
+    text-align: left;
+    display: inline-block;
+    font-size: 12px;
+    
+}
+ .pointer {
+  cursor: pointer;
+
+}
+
+.select {
+   background: black;
+   color: white;
+   width: 275px;
+   padding: 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+}
+
+
+.table {
+
+background:  url(https://fromthebalcony.com/wp-content/uploads/2014/01/Live-Free-or-Die-Hard_kn5qtv.jpg) 
+
+}
+
+.table th
+ {
+font-weight: normal;
+
+font-size: 14px;
+
+color: #DCDCDC;
+
+padding: 10px 12px;
+
+ }
+
+.table tbody td {
+background: url(https://html5book.ru/wp-content/themes/papercuts/images/back.png);
+}
+
+.table td {
+
+color: #FFFAFA;
+ 
+
+ 
+padding: 10px 12px;
+}
+
+
+.table tr:hover td {
+background: transparent;
+}
+
+.placeholder {
+    background-color:#BC8F8F; 
+    border: 1px solid #C0C0C0;
+    color: #FFD700;
+    padding: 10px 15px;
+    text-align: left;
+    display: inline-block;
+    font-size: 12px;
+    
+}
+
+
+
+::-webkit-input-placeholder {
+  color: #000000;
+}
+
+:-ms-input-placeholder {
+  color: #000000;
+}
+
+input::-webkit-input-placeholder       {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input:-ms-input-placeholder            {text-indent: 0px;   transition: text-indent 0.5s ease;}
+input:focus::-webkit-input-placeholder {text-indent: 500px; transition: text-indent 0.5s ease;}
+input:focus:-ms-input-placeholder      {text-indent: 500px; transition: text-indent 0.5s ease;}
+ 
+.div3 {
+
+    padding: 10px 350px;
+    text-align:center;
+   
+}
+.div4 {
+
+    background-color:#FFFAFA; 
+    border: 1.5px solid #C0C0C0;
+    color: #BC8F8F;
+    padding: 12px 15px;
+    text-align:left ;
+   font-size: 18px;
+}
+
+
+.hr {
+border: 0;
+height: 1px;
+background: #000;
+background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+background-image: -moz-linear-gradient(left, #fff, #000, #fff);
+background-image: -ms-linear-gradient(left, #fff, #000, #fff);
+background-image: -o-linear-gradient(left, #fff, #000, #fff);
+}
